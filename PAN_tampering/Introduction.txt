@@ -1,0 +1,14 @@
+What we going to do ?
+ we are gong to make a model which can detect tampered PAN(permanent Account number) card of a user instantly.
+
+the steps to follow to create this model :
+1. get images from user 
+2. check size and format of image 
+3. change image size and shape according to the original image
+4. convert the image to greyscale
+5. find the similarity index of image 
+6. find the threshold of the image 
+7. find contours and grab those contour using imutils
+8. draw a bounding rectancle using these contours 
+9. plot differences , thereshold of original and tampered image
+10. compare all the image and check the similarity score to decide tampering.
